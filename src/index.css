@@ -8,7 +8,7 @@
     }
 
     body{
-        @apply flex flex-col bg-white text-black p-0 text-base font-normal h-full;
+        @apply flex flex-col bg-white dark:bg-[#121212] text-black dark:text-white p-0 text-base font-normal h-full;
     }
 
     #root{

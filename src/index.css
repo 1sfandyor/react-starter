@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html{
+        @apply h-full scroll-smooth;
+    }
+
+    body{
+        @apply flex flex-col bg-white text-black p-0 text-base font-normal h-full;
+    }
+
+    #root{
+        @apply flex flex-col h-full;
+    }
+    
+    img {
+        @apply max-w-full h-auto;
+    }
+
+    main{
+        @apply flex-grow;
+    }
+
+    h1 {
+        @apply text-3xl font-bold md:text-5xl font-primary;
+    }
+    
+    h2 {
+        @apply text-2xl font-bold md:text-4xl font-primary;
+    }
+    
+    h3 {
+        @apply text-xl font-bold md:text-3xl font-primary;
+    }
+    
+    h4 {
+        @apply text-lg font-bold font-primary;
+    }
+
+}
+
